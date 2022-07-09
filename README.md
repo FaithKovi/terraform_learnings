@@ -1,5 +1,24 @@
 # terraform_learnings
-## Chapter 2: 
+## Chapter 1: Why Terraform?
+- [x] The Rise of DevOps
+- [x] What Is Infrastructure as Code?
+    - [x] Ad Hoc Scripts
+    - [x] Configuration Management Tools
+    - [x] Server Templating Tools
+    - [x] Orchestration Tools
+    - [x] Provisioning Tools
+- [x] The Benefits of Infrastructure as Code
+- [x] How Terraform Works
+- [x] How Terraform Compares to Other IaC Tools
+    - [x] Configuration Management Versus Provisioning
+    - [x] Mutable Infrastructure Versus Immutable Infrastructure
+    - [x] Procedural Language Versus Declarative Language
+    - [x] Master Versus Masterless
+    - [x] Agent Versus Agentless
+    - [x] Large Community Versus Small Community
+    - [x] Mature Versus Cutting Edge
+    - [x] Using Multiple Tools Together
+## Chapter 2: Getting Started with Terraform
 - [x] Deploy a single server
 - [] Deploy a single web server
 - [] Deploy a Configurable Web Server
