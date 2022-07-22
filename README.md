@@ -1,4 +1,4 @@
-# terraform_learnings
+# Terraform Up and Running
 ## Chapter 1: Why Terraform?
 - [x] The Rise of DevOps
 - [x] What Is Infrastructure as Code?
