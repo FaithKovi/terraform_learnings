@@ -20,8 +20,8 @@
     - [x] Using Multiple Tools Together
 ## Chapter 2: Getting Started with Terraform
 - [x] Deploy a single server
-- [] Deploy a single web server
-- [] Deploy a Configurable Web Server
+- [x] Deploy a single web server
+- [x] Deploy a Configurable Web Server
 - [] Deploying a Cluster of Web Servers
 - [] Deploying a Load Balancer
 ## Chapter 3: How to Manage Terraform State
