@@ -54,3 +54,11 @@
     - [] Valid plans can fail
     - [] Refactoring can be tricky
     - [] Eventual consistency is consistent…eventually
+## Chapter 6: Production-Grade Terraform Code
+- [] Production-Grade infrastructure checklist
+- [] Production-Grade infrastructure Modules
+    - [] Composable Modules
+    - [] Testable Modules
+    - [] Releaseable Modules
+    - [] Beyond Terraform Modules
+## Chapter 7: How to test Terraform code
