@@ -22,7 +22,7 @@
 - [x] Deploy a single server
 - [x] Deploy a single web server
 - [x] Deploy a Configurable Web Server
-- [] Deploying a Cluster of Web Servers
+- [x] Deploying a Cluster of Web Servers
 - [] Deploying a Load Balancer
 ## Chapter 3: How to Manage Terraform State
 - [] Shared storage for state files(s3)
