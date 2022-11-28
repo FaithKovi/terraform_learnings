@@ -23,13 +23,13 @@
 - [x] Deploy a single web server
 - [x] Deploy a Configurable Web Server
 - [x] Deploying a Cluster of Web Servers
-- [] Deploying a Load Balancer
+- [x] Deploying a Load Balancer
 ## Chapter 3: How to Manage Terraform State
-- [] Shared storage for state files(s3)
-- [] Isolating state files 
-    - [] Isolation via workspaces
-    - [] Isolation via File layout
-- [] The terraform_remote_state Data Source
+- [x] Shared storage for state files(s3)
+- [x] Isolating state files 
+    - [x] Isolation via workspaces
+    - [x] Isolation via File layout
+- [x] The terraform_remote_state Data Source
 ## Chapter 4: How to Create Reusable Infrastructure with Terraform Modules
 - [] Module basics
 - [] Module Inputs
@@ -54,11 +54,48 @@
     - [] Valid plans can fail
     - [] Refactoring can be tricky
     - [] Eventual consistency is consistent…eventually
-## Chapter 6: Production-Grade Terraform Code
+## Chapter 6: Managing secrets with Terraform
+- [] Secret Management Basics
+- [] Secret Management Tools
+- [] Using secret management tools with Terraform
+- [] Resources and data sources
+    - [] Environment Variables
+    - [] Encrypted files
+    - [] Secret Stores
+- [] State Files and Plan Files
+    - [] State files
+    - [] Plan files
+## Chapter 7: Working with Multiple Providers
+- [] Working with one provider
+- [] Working with multiple copies of the same provider
+    - [] Working with multiple AWS regions
+    - [] Working with multiple AWS accounts
+    - [] Creating modules that can work with multiple providers
+- [] Working with multiple different providers
+    - [] Multi-provider and multi-cloud
+    - [] Multi-provider example: AWS and Kubernetes
+## Chapter 8: Production-Grade Terraform Code
+- [] Why It Takes So Long to Build Production-Grade Infrastructure
 - [] Production-Grade infrastructure checklist
 - [] Production-Grade infrastructure Modules
-    - [] Composable Modules
-    - [] Testable Modules
-    - [] Releaseable Modules
-    - [] Beyond Terraform Modules
-## Chapter 7: How to test Terraform code
+    - [] Small modules
+    - [] Composable modules
+    - [] Testable modules
+    - [] Versioned modules
+    - [] Beyond Terraform modules
+## Chapter 9: How to test Terraform code
+- [] Manual tests
+    - [] Manual testing basics
+    - [] Cleaning up after tests
+- [] Automated tests
+    - [] Unit tests
+    - [] Integration tests
+    - [] End-to-end tests
+    - [] Other testing approaches
+## Chapter 10: How to Use Terraform as a Team
+- [] Adopting IaC in Your Team
+- [] A Workflow for Deploying Application Code
+- [] A Workflow for Deploying Infrastructure Code
+- [] Documentation
+- [] Terragrunt
+
